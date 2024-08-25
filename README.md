@@ -9,4 +9,5 @@ moved 100 microns down from the origin, and objective moved both 100 microns to 
 By sliding pairs of images past each other a pixel at a time (ie: origin + right_shift), a set of residuals can be generated and
 minimized to obtain the number of pixels corresponding to the size of the scalebar.
 
-The rest of the code focuses on edge detection to extract cell boundaries and cell area in order to estimate the size of the average cell.
+The rest of the code focuses on applying (unsuccessfully) a grab bag of techniques to attempt to detect edge pixels and interior pixels and use this
+to binarize the image. 
